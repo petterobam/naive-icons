@@ -60,6 +60,16 @@ npx skills add guokaigdg/naive-icons
 Skill 自带完整图标目录、设计规范和用法，以及全部 SVG 源码，助手生成代码不依赖项目里
 是否装了本库。库升级后重跑同一条命令即可更新。
 
+正在用本仓库开发？不用走上面的命令——仓库自带一个离线安装脚本，把 skill
+软链到本机各客户端，改了仓库里的 skill 立刻生效：
+
+```bash
+bash scripts/install_skill.sh              # 预览会装到哪些目录
+bash scripts/install_skill.sh --yes        # 装（Codex / Claude Code / Cursor / OpenCode / Gemini）
+bash scripts/install_skill.sh --project .  # 只装进当前项目
+bash scripts/install_skill.sh --list       # 看装到哪了
+```
+
 > 装 skill 和用组件是两件事。要在代码里 `import { HomeIcon } from 'naive-icons'`，
 > 才需要下面「安装」里的 `npm install naive-icons`。
 

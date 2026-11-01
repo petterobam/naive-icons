@@ -62,6 +62,17 @@ The skill bundles the full icon catalog, the design spec, usage patterns and eve
 file, so the agent can generate code even when the package isn't installed in your project.
 Re-run the same command after upgrading the library to update it.
 
+Working from a clone of this repo? Skip the command above — the repo ships an offline
+installer that symlinks the skill into every agent on your machine, so edits in the repo
+take effect immediately:
+
+```bash
+bash scripts/install_skill.sh              # preview the target directories
+bash scripts/install_skill.sh --yes        # install (Codex / Claude Code / Cursor / OpenCode / Gemini)
+bash scripts/install_skill.sh --project .  # install into the current project only
+bash scripts/install_skill.sh --list       # show where it is installed
+```
+
 > Installing the skill and using the components are separate things. You only need
 > `npm install naive-icons` from the Installation section below when you actually want to
 > `import { HomeIcon } from 'naive-icons'` in your own code.

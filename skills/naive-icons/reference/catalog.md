@@ -12,29 +12,29 @@
 |---|---|---|---|
 | `alert-circle` | 提示 | `AlertCircleIcon` | 错误、警报、提醒、alert |
 | `alert-triangle` | 警告 | `AlertTriangleIcon` | 警告、危险、warning |
-| `badge-check` | 认证 | `BadgeCheckIcon` | 认证、验证、实名、verify |
+| `badge-check` | 认证 | `BadgeCheckIcon` | 个人资料、认证、验证、实名、verify |
 | `ban` | 禁止 | `BanIcon` | 禁止、屏蔽、ban |
 | `bell` | 铃铛 | `BellIcon` | 警报、通知、提醒、铃铛、alert、bell |
 | `bell-off` | 免打扰 | `BellOffIcon` | 免打扰、静音提醒、belloff |
 | `bold` | 加粗 | `BoldIcon` | 加粗、粗体、bold |
 | `bookmark` | 书签 | `BookmarkIcon` | 书签、收藏夹、收藏、bookmark、favorite |
 | `bulb` | 灯泡 | `BulbIcon` | 灵感、创意、想法、灯泡、灯、idea、bulb |
-| `calendar` | 日历 | `CalendarIcon` | 日历、日程、预约、schedule、agenda、events |
-| `check-circle` | 成功 | `CheckCircleIcon` | 验证、确认、确定、完成、成功、完成度、进度 |
+| `calendar` | 日历 | `CalendarIcon` | 日历、会议、日程、预约、schedule、agenda、meeting |
+| `check-circle` | 成功 | `CheckCircleIcon` | 验证、确认、确定、完成、成功、已读、标记已读 |
 | `check-square` | 复选框 | `CheckSquareIcon` | 复选框、多选、未选中、checkbox |
-| `clock` | 时钟 | `ClockIcon` | 稍后、历史、最近 |
+| `clock` | 时钟 | `ClockIcon` | 时间、时刻、稍后、历史、最近、time |
 | `ellipsis` | 更多 | `EllipsisIcon` | 更多、更多操作、more |
 | `external-link` | 外链 | `ExternalLinkIcon` | 链接、外链、站外、新窗口、退出、externallink |
 | `eye` | 眼睛 | `EyeIcon` | 无障碍、可访问性、password |
 | `eye-off` | 隐藏 | `EyeOffIcon` | 隐私、隐藏、隐身、password |
-| `grid` | 网格 | `GridIcon` | 视图、展示方式、网格、宫格、看板、拖拽、工作区 |
+| `grid` | 网格 | `GridIcon` | 视图、展示方式、网格、宫格、看板、表格、数据表 |
 | `heart` | 爱心 | `HeartIcon` | 爱心、喜欢、点赞、heart、like |
 | `help-circle` | 帮助 | `HelpCircleIcon` | 帮助、问号、客服、答疑、help、question |
 | `home` | 家 | `HomeIcon` | 家、首页、总览、仪表盘、home、dashboard |
 | `info` | 信息 | `InfoIcon` | 信息、详情、说明、无障碍、info |
 | `italic` | 斜体 | `ItalicIcon` | 斜体、倾斜、italic |
 | `link` | 链接 | `LinkIcon` | 链接、网址、link |
-| `list` | 列表 | `ListIcon` | 视图、展示方式、列表、清单、list |
+| `list` | 列表 | `ListIcon` | 视图、展示方式、表格、数据表、列表、清单、table |
 | `menu` | 菜单 | `MenuIcon` | 拖拽、把手、菜单、汉堡、menu |
 | `more-vertical` | 更多(竖) | `MoreVerticalIcon` | 更多、竖排、更多操作、操作菜单、more、kebab |
 | `search` | 搜索 | `SearchIcon` | 搜索、查找、放大镜、search |
@@ -47,7 +47,7 @@
 | `tag` | 标签 | `TagIcon` | 标签、标记、新建标签、标签页、价格、tag |
 | `underline` | 下划线 | `UnderlineIcon` | 下划线、underline |
 | `unlink` | 取消链接 | `UnlinkIcon` | 取消链接、断开、unlink |
-| `user` | 用户 | `UserIcon` | 登录、账户、帐号、账号、用户、联系人、我的 |
+| `user` | 用户 | `UserIcon` | 登录、账户、帐号、账号、用户、联系人、我的、头像、个人资料 |
 | `user-circle` | 圆形用户 | `UserCircleIcon` | 个人中心、圆形用户、user-circle |
 | `user-minus` | 移除成员 | `UserMinusIcon` | 移除成员、删除用户、user-minus |
 | `user-plus` | 添加成员 | `UserPlusIcon` | 注册、成员、团队、邀请、加好友、添加成员、新增 |
@@ -58,7 +58,7 @@
 
 | id | 中文名 | 组件名 | 什么时候用 |
 |---|---|---|---|
-| `check` | 勾选 | `CheckIcon` | 确认、确定、完成、勾选、打勾、选中、ok |
+| `check` | 勾选 | `CheckIcon` | 确认、确定、完成、已读、标记已读、勾选、打勾 |
 | `close` | 关闭 | `CloseIcon` | 删除、关闭、关掉、取消、退出、remove、close |
 | `copy` | 复制 | `CopyIcon` | 复制、拷贝、标签页、copy、duplicate |
 | `download` | 下载 | `DownloadIcon` | 下载、导出、download |
@@ -82,7 +82,7 @@
 | `sort` | 排序 | `SortIcon` | 排序、sort |
 | `stop` | 停止 | `StopIcon` | 停止、stop |
 | `stop-circle` | 停止圆圈 | `StopCircleIcon` | 停止圆圈 |
-| `trash` | 垃圾桶 | `TrashIcon` | 删除、垃圾桶、清理、delete、remove |
+| `trash` | 垃圾桶 | `TrashIcon` | 删除、垃圾桶、清理、垃圾、delete、remove |
 | `undo` | 撤销 | `UndoIcon` | 撤销、回退、undo |
 | `upload` | 上传 | `UploadIcon` | 上传、导入、upload |
 | `zoom-in` | 放大 | `ZoomInIcon` | 放大、放大镜、zoomin |
@@ -92,9 +92,9 @@
 
 | id | 中文名 | 组件名 | 什么时候用 |
 |---|---|---|---|
-| `book` | 书本 | `BookIcon` | 文档、书本、阅读、book |
+| `book` | 书本 | `BookIcon` | 文档、书本、阅读、read、book |
 | `camera` | 相机 | `CameraIcon` | 照片、相机、拍照、camera、photo |
-| `code` | 代码 | `CodeIcon` | 代码、开发、编程、源码、code |
+| `code` | 代码 | `CodeIcon` | 代码、开发、编程、源码、终端、命令行、code |
 | `file` | 文件 | `FileIcon` | 文件、文档、file |
 | `folder` | 文件夹 | `FolderIcon` | 文件夹、目录、folder |
 | `folder-minus` | 删除文件夹 | `FolderMinusIcon` | 删除文件夹、folder-minus |
@@ -147,8 +147,8 @@
 |---|---|---|---|
 | `bolt` | 闪电 | `BoltIcon` | 闪电、电力、bolt |
 | `chat` | 对话 | `ChatIcon` | 回复、对话、聊天、消息、私信、reply、chat |
-| `inbox` | 收件箱 | `InboxIcon` | 收件箱、未读、inbox |
-| `mail` | 邮件 | `MailIcon` | 邮件、邮箱、信封、mail、email |
+| `inbox` | 收件箱 | `InboxIcon` | 收件箱、未读、inbox、unread |
+| `mail` | 邮件 | `MailIcon` | 邮件、邮箱、信封、未读、mail、email、unread |
 | `phone` | 电话 | `PhoneIcon` | 电话、拨号、通话、phone、call |
 | `send` | 发送 | `SendIcon` | 发送、发出、提交、分享、回复、send、reply |
 | `wifi` | 无线网 | `WifiIcon` | 无线、网络、wifi、network |
@@ -163,12 +163,12 @@
 | `flame` | 火焰 | `FlameIcon` | 火焰、火、热、热门、flame、fire |
 | `flower` | 花朵 | `FlowerIcon` | 花、花朵、鲜花、flower |
 | `leaf` | 叶子 | `LeafIcon` | 自然、叶子、环保、绿色、leaf |
-| `moon` | 月亮 | `MoonIcon` | 月亮、夜晚、深夜、天气、主题、深色模式、主题切换 |
+| `moon` | 月亮 | `MoonIcon` | 月亮、夜晚、深夜、深色、夜间模式、天气、主题 |
 | `mountain` | 山峰 | `MountainIcon` | 山、山峰、爬山、mountain |
 | `mushroom` | 蘑菇 | `MushroomIcon` | 蘑菇、mushroom |
 | `rainbow` | 彩虹 | `RainbowIcon` | 彩虹、天气、rainbow |
 | `snowflake` | 雪花 | `SnowflakeIcon` | 下雪、雪、冬天、天气、snow、snowflake、weather |
-| `sun` | 太阳 | `SunIcon` | 太阳、晴天、白天、天气、主题、浅色模式、主题切换 |
+| `sun` | 太阳 | `SunIcon` | 太阳、晴天、白天、浅色、日间模式、天气、主题 |
 | `tent` | 帐篷 | `TentIcon` | 帐篷、露营、户外、tent |
 | `tree` | 大树 | `TreeIcon` | 树、森林、自然、tree |
 | `umbrella` | 雨伞 | `UmbrellaIcon` | 下雨、雨、雨伞、天气、rain、umbrella、weather |
@@ -230,7 +230,7 @@
 | `lamp` | 台灯 | `LampIcon` | 台灯、灯、lamp |
 | `lock` | 锁 | `LockIcon` | 登录、登陆、权限、隐私、安全、密码、锁 |
 | `lock-open` | 解锁 | `LockOpenIcon` | 解锁、unlock |
-| `monitor` | 显示器 | `MonitorIcon` | 显示器、屏幕、大屏、副屏、显示设备、monitor、screen |
+| `monitor` | 显示器 | `MonitorIcon` | 终端、命令行、显示器、屏幕、大屏、副屏、显示设备 |
 | `mouse` | 鼠标 | `MouseIcon` | 键鼠、鼠标、点击、指针、滚轮、点击设备、mouse |
 | `paintbrush` | 画笔 | `PaintbrushIcon` | 画笔、绘画、涂鸦、paint、paintbrush |
 | `palette` | 调色板 | `PaletteIcon` | 调色板、配色、palette |

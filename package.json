@@ -52,7 +52,8 @@
     "icons:data": "python3 scripts/build_website.py",
     "icons:add": "python3 scripts/generate_icons_add.py && python3 scripts/build_website.py",
     "icons:vue": "python3 scripts/generate_vue.py",
-    "icons:vue:check": "python3 scripts/generate_vue.py --check"
+    "icons:vue:check": "python3 scripts/generate_vue.py --check",
+    "skill:install": "bash scripts/install_skill.sh"
   },
   "keywords": [
     "icons",

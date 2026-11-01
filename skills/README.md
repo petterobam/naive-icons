@@ -50,6 +50,36 @@ cp -R naive-icons/skills/naive-icons ~/.claude/skills/
 
 Claude Code 和 Cursor 需要**新开会话**才加载技能表。
 
+## 从本地 clone 安装（离线，本仓库开发者用这个）
+
+`npx skills add` 是从 GitHub 拉一份拷贝；已经 clone 了本仓库时，用仓库自带的脚本更省事——
+它把 skill **软链**到本机各客户端，之后改仓库里的 `SKILL.md` / `catalog.md` 立刻生效，不用重装：
+
+```bash
+bash scripts/install_skill.sh                # 预览：列出会装到哪些目录
+bash scripts/install_skill.sh --yes          # 装（全局，软链）
+bash scripts/install_skill.sh --copy --yes   # 复制而不是软链
+bash scripts/install_skill.sh --project .    # 只装进某个项目（.claude/skills + .agents/skills）
+bash scripts/install_skill.sh --target DIR   # 装到指定技能目录
+bash scripts/install_skill.sh --list         # 查看安装状态
+bash scripts/install_skill.sh --uninstall --yes
+```
+
+等价于 `npm run skill:install -- --yes`。
+
+脚本只往本机**已存在**的技能目录里装（不存在的不新建）：
+
+| 目录 | 客户端 |
+|---|---|
+| `~/.codex/skills` | Codex |
+| `~/.agents/skills` | 通用 Agent 目录（Claude Code / Cursor / Codex 都读） |
+| `~/.claude/skills` | Claude Code |
+| `~/.config/opencode/skills` | OpenCode |
+| `~/.gemini/skills` | Gemini CLI |
+| `~/.cursor/skills` | Cursor |
+
+目标目录里已有同名目录、但不像本 skill 时，脚本会拒绝覆盖并退出，不会误删别的东西。
+
 ## 装上之后
 
 助手会自己判断什么时候用。也可以直接说：
